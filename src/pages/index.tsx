@@ -12,12 +12,7 @@ export const WorkoutsPage = () => (
   </section>
 )
 
-export const ExercisesPage = () => (
-  <section>
-    <h2>Exercícios</h2>
-    <p>Biblioteca de exercícios com filtros por grupo muscular.</p>
-  </section>
-)
+export { ExerciseDetailsPage, ExerciseFormPage, ExercisesListPage } from './exercises'
 
 export const HistoryPage = () => (
   <section>

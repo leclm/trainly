@@ -23,6 +23,9 @@ export interface Exercise {
   imageUrl?: string | null
   videoUrl?: string | null
   isSystemExercise: boolean
+  createdAt?: string
+  updatedAt?: string
+  isArchived?: boolean
 }
 
 export interface Workout {
